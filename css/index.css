@@ -40,13 +40,24 @@ table {
     border-spacing: 0;
 }
 
-/************************************/
+/****************RESET ABOVE********************/
+
+/*****  GLOBALS  *****/
 
 html {
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+/***** end globals ******/
+
+/**** header section ****/
+
+header {
+    display: flex;
 }
