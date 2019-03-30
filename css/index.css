@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/****************RESET ABOVE********************/
+
+/*****  GLOBALS  *****/
+
+html {
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    line-height: 1.2em;
+}
+
+*:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+/***** end globals ******/
+
+.red {
+    border: 1px dotted red;
+}
+
+/**** header section ****/
+
+header {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2.5em 0 1.4em 0;
+    border-bottom: 2px solid slategrey;
+    padding-bottom: 1.5em;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    /** height is for fix for height adjust for 3.5em of h1 comparison **/
+    height: 2.2em;
+    align-items: flex-end;
+}
+
+nav a {
+    margin-right: 1em;
+    font-size: 1.2em;
+    color: slategray;
+    text-decoration: none;
+}
+
+/**** end header section ****/
+
+/**** middle section ****/
+
+section {
+    display: flex;
+}
+
+.col-half {
+    width: 50%;
+    padding: 10px;
+}
+
+h2.center {
+    margin-bottom: 0.25em;
+}
+
+/***** tool card section *****/
+
+.margin {
+    margin: 1.5em;
+}
+
+.tool-display {
+    /** flexes off section **/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    /** flex styles **/
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    /** design styles **/
+    border: 1px solid red;
+    border-radius: 15px;
+    width: 75%;
+    margin: 0.5em;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 0.75em 0 0.50em 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+img {
+    width: 90%;
+    border-radius: 15px;
+    padding: 0.75em;
+}
+
+/*** footer ***/
+
+footer {
+    margin: 2em 0;
+}
