@@ -106,7 +106,7 @@ nav a {
 
 /**** end header section ****/
 
-/**** middle section with info and cards ****/
+/**** middle section ****/
 
 section {
     display: flex;
@@ -120,3 +120,5 @@ section {
 h2.center {
     margin-bottom: 0.25em;
 }
+
+/***** tool card section *****/
