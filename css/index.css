@@ -50,8 +50,25 @@ html {
     font-size: 16px;
 }
 
-*, *:before, *:after {
+*:before, *:after {
     box-sizing: inherit;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 /***** end globals ******/
@@ -60,4 +77,21 @@ html {
 
 header {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1em 0 1.4em 0;
+    padding-bottom: 1.5em;
+    border-bottom: 2px solid slategrey;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin-right: 1em;
+    font-size: 1.2em;
+    color: slategray;
+    text-decoration: none;
 }
