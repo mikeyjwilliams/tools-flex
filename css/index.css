@@ -88,8 +88,13 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 1em 0 1.4em 0;
-    padding-bottom: 1.5em;
+    padding-bottom: 3.5em;
     border-bottom: 2px solid slategrey;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
 }
 
 nav {
