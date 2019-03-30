@@ -147,7 +147,7 @@ h2.center {
 
 .btn {
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid red;
     border-radius: 10px;
     margin: 0.75em 0 0.50em 0;
     padding: 10px 25px;
@@ -155,7 +155,7 @@ h2.center {
 }
 
 .btn:hover {
-    background-color: black;
+    background-color: red;
     color: white;
 }
 
