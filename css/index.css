@@ -50,6 +50,10 @@ html {
     font-size: 16px;
 }
 
+body {
+    line-height: 1.2em;
+}
+
 *:before, *:after {
     box-sizing: inherit;
 }
@@ -69,6 +73,10 @@ h3 {
 .container {
     width: 1000px;
     margin: 0 auto;
+}
+
+.center {
+    text-align: center;
 }
 
 /***** end globals ******/
@@ -99,3 +107,16 @@ nav a {
 /**** end header section ****/
 
 /**** middle section with info and cards ****/
+
+section {
+    display: flex;
+}
+
+.col-half {
+    width: 50%;
+    padding: 10px;
+}
+
+h2.center {
+    margin-bottom: 0.25em;
+}
