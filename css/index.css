@@ -182,3 +182,19 @@ img {
 footer {
     margin: 2em 0;
 }
+
+/** phone only media **/
+
+@media(max-width: 599px) {}
+
+/** tablet portrait up **/
+
+@media(min-width: 600px) {}
+
+/** tablet landscape up **/
+
+@media(min-width: 900px) {}
+
+/** desktop up **/
+
+@media(min-width: 1200px) {}
