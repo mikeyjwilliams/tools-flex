@@ -168,6 +168,25 @@ footer {
         max-width: 100%;
         min-width: 310px;
     }
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav a {
+        margin: 0.25em 0;
+    }
+    nav a:first-child {
+        margin-top: 1.25em;
+    }
 }
 
 /** tablet portrait up **/
