@@ -100,6 +100,7 @@ nav a {
 
 section {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col-half {
@@ -186,6 +187,9 @@ footer {
     }
     nav a:first-child {
         margin-top: 1.25em;
+    }
+    .col-half {
+        width: 100%;
     }
 }
 
